@@ -5,7 +5,7 @@ body {
 
 a {
     text-decoration: none;
-    color: darkgray
+    color: #424242
 }
 a:hover{
     text-decoration: underline;
@@ -13,17 +13,21 @@ a:hover{
 
 button{
     background-color:#4285F4;
+    border-radius: 5px;
     color:white;
    font-weight:bold;
+    height: 40px;
+    width: 105px;
+
 }
 
 button.gris{
-    font-size: small;
-    border-radius: 1px;
+    font-size: medium;
+    border-radius: 15px;
     background-color:#f8f8f8;
     color: #9B9A9A;
-    height: 36px;
-    width: 150px;
+    height: 50px;
+    width: 180px;
 }
 
 .entete{
@@ -35,7 +39,7 @@ button.gris{
 }
 
 .entetegm{
-    padding: 15px;
+    padding: 13px;
 }
 
 .recherche {
@@ -43,14 +47,22 @@ button.gris{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 9%;
-    margin-top: 9%;
+    margin-bottom: 12%;
+    margin-top: 2%;
 }
 .btnrecherche {
     margin: 15px;
     padding: 10px;
     flex-direction: row;
     justify-content: center;
+
+}
+
+.languedisponible {
+    margin-bottom: 5%;
+    margin-top: 0.3%;
+    margin-left: 41%
+
 
 }
 .saisie{
@@ -81,8 +93,9 @@ button.gris{
     /* justify-content: center; */
     justify-content: space-between;
     align-items: flex-end;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+
 }
 .footer2g {
     font-size: small;
